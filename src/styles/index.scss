@@ -1,0 +1,22 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  .todo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 70%;
+
+    margin: 20px auto;
+
+    &-description {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: 80%;
+    }
+  }
+
+  form {
+    margin-bottom: 10px;
+  }
+}
